@@ -57,19 +57,19 @@ export default function AutoScrollCards() {
         {[1, 2, 3].map((i) =>(
             <div
                 key={i}
-                className="flex-shrink-0 snap-center h-80 w-full  pl-5 pr-5 flex flex-col items-start gap-4 rounded-sm bg-white shadow-[0_0_8px_0_rgba(0,0,0,0.25)] justify-center border border-gray-300"
+                className="flex-shrink-0 snap-center h-80 w-full  pl-5 pr-5 flex flex-col items-start gap-4 rounded-sm bg-white shadow-[0_0_8px_0_rgba(0,0,0,0.25)] justify-center border border-gray-300 lg:h-68"
             >
 
-                <p className="text-base font-normal pt-6 md:text-xl">
+                <p className="text-base font-normal pt-6 md:text-xl lg:text-[14px] px-4">
                 Tried their service and it was amazing! The staff was friendly and the process was smooth. Highly recommend. They made my life so much easier. I was able to get flat fixed and to my taste in no time.
                 </p>
 
-                <div className='flex gap-4 items-center pt-12'>
+                <div className='flex gap-4 items-center pt-10 lg:pt-7'>
                     <div className="bg-[url('/assets/icons/Ellipse1.svg')] w-14 h-14 bg-cover" />
                     <p className='text-base font-semibold pr-3'>Paul Hume</p>
 
                 </div>
-                <div className="bg-[url('/assets/images/Rectangle11.png')] w-36 h-36 bg-cover ml-auto -mt-12"/>
+                <div className="bg-[url('/assets/images/Rectangle11.png')] w-36 h-36 bg-cover ml-auto -mt-12 lg:w-40 lg:h-20"/>
 
 
             </div>
