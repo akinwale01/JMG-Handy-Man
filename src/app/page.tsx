@@ -6,11 +6,11 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main className='w-fit'>
-        <div className='lg:relative'>
+      <main className='w-fit lg:w-full'>
+        <div className='lg:relative lg:w-full'>
           <div className=' bg-black  h-56 md:h-78 lg:w-[606px] lg:h-[738px]'>
-            <div className="lg:absolute lg:top-0 lg:left-0 lg:z-20 lg:w-full lg:flex lg:pl-8">
-            <h1 className='text-5xl text-left text-white pl-5 pr-8 pt-14 font-bold self-stretch md:text-[73px] md:pt-26 md:pr-32 lg:text-[73px] lg:w-[770px]'>Your Trusted Handyman for All Home Repairs & Improvements</h1>
+            <div className="lg:absolute lg:top-0 lg:left-0 lg:z-20 lg:w-full lg:flex lg:px-8">
+            <h1 className='text-5xl text-left text-white px-5 pt-14 font-bold self-stretch md:text-[73px] md:pt-26 md:px-8 lg:text-[73px] lg:w-[770px]'>Your Trusted Handyman for All Home Repairs & Improvements</h1>
             </div>
           </div>
 
@@ -26,7 +26,7 @@ export default function Home() {
             </div>
         </div>
 
-        <div className='flex w-full flex-col items-start pt-18 pl-5 pr-5 lg:mt-50 lg:pl-12' id='Why Choose Us'>
+        <div className='flex w-full flex-col items-start pt-18 pl-5 px-5 lg:mt-50 lg:pl-12' id='Why Choose Us'>
           <h2 className='text-[#DA2327] text-[20px] font-semibold'> Why Choose JMG HandyMan Services?</h2>
 
           <h2 className='pt-5 text-black text-4xl md:text-6xl font-bold lg:w-[848px] lg:text-[53px]'>“...Years of expertise in home repairs and renovations.”</h2>
@@ -83,19 +83,19 @@ export default function Home() {
           </div>
         </div>
 
-        <div className='flex w-fit flex-col items-start pt-18 pl-5 pr-5 lg:pl-12' id='Services'>
+        <div className='flex w-fit flex-col items-start pt-18 px-5 lg:pl-12' id='Services'>
           <h2 className='text-[#DA2327] text-[20px] font-semibold'> Our Services</h2>
 
-          <h2 className='pt-5 text-black text-4xl md:text-6xl font-bold'>“...We are committed to excellence, now and always.”</h2>
+          <h2 className='pt-5 text-black text-4xl md:text-6xl font-bold lg:w-[848px] lg:text-[53px]'>“...We are committed to excellence, now and always.”</h2>
         </div>
 
-        <div className='flex pt-10 pl-5 pr-5 aspect-video lg:px-12'>
+        <div className='flex pt-10 px-5 aspect-video lg:px-12'>
           <div className="bg-[url('/assets/images/Rectangle8.png')] bg-cover bg-center bg-no-repeat w-full"/>
           <div className="bg-[url('/assets/images/Rectangle7.png')] bg-cover bg-center bg-no-repeat w-full"/>
           <div className="bg-[url('/assets/images/Rectangle9.png')] bg-cover bg-center bg-no-repeat w-full"/>
         </div>
 
-        <div className ='grid grid-cols-1 md:grid-cols-2 gap-20 md:gap-15 pt-18 px-5 lg:grid lg:grid-cols-4 lg:gap-20 lg:px-12' >
+        <div className ='grid grid-cols-1 md:grid-cols-2 gap-20 md:gap-15 pt-18 px-5 lg:grid lg:grid-cols-4 lg:gap-12 lg:px-12' >
           <div className='flex flex-col  items-start'>
             <div className='w-20 h-16 relative'>
               <div className='w-10 h-10 bg-[#DA2327] p-2 text-white text-base font-semibold rounded-full text-center absolute top-0 left-2'> 1</div>
@@ -103,8 +103,8 @@ export default function Home() {
                <div className=" bg-[url('/assets/icons/56a19ec5be8c64dcfe08d2e4219c910bf8e1a54a.gif')] w-16 h-16 bg-cover -mt-8 ml-8 " />
             </div>
 
-            <div className='pl-2 pr-2'>
-              <h2 className='text-2xl font-semibold'>General Home Repairs</h2>
+            <div className='px-2 pr-2'>
+              <h2 className='text-2xl font-semibold lg:text-[29px]'>General Home Repairs</h2>
               <p className='text-base font-medium pt-3'>Fixing leaks, drywall patching, and more.</p>
             </div>
           </div>
@@ -113,11 +113,11 @@ export default function Home() {
             <div className='w-20 h-16 relative'>
               <div className='w-10 h-10 bg-[#DA2327] p-2 text-white text-base font-semibold rounded-full text-center absolute top-0 left-2'> 2</div>
 
-               <div className=" bg-[url('/assets/icons/bc52c4e3b268a6deafd5a4b3ff0b2359ef7a913e.gif')] w-16 h-16 bg-cover -mt-8 ml-8 " />
+               <div className=" bg-[url('/assets/icons/bc52c4e3b268a6deafd5a4b3ff0b2359ef7a913e.gif')] w-16 h-16 bg-cover -mt-8 mx-8 " />
             </div>
 
-            <div className='pl-2 pr-2'>
-              <h2 className='text-2xl font-semibold'>Door & Window Installation</h2>
+            <div className='px-2'>
+              <h2 className='text-2xl font-semibold lg:text-[29px]'>Door & Window Installation</h2>
               <p className='text-base font-medium pt-3'>Secure, energy-efficient upgrades.</p>
             </div>
           </div>
@@ -129,8 +129,8 @@ export default function Home() {
                <div className=" bg-[url('/assets/icons/c1b3f247919a6133bf484c46622b6c5d8c7e4de0.gif')] w-16 h-16 bg-cover -mt-8 ml-8 " />
             </div>
 
-            <div className='pl-2 pr-2'>
-              <h2 className='text-2xl font-semibold'>Furniture Assembly</h2>
+            <div className='px-2'>
+              <h2 className='text-2xl font-semibold lg:text-[29px]'>Furniture Assembly</h2>
               <p className='text-base font-medium pt-3'>Professional assembly for all types of furniture.</p>
             </div>
           </div>
@@ -139,11 +139,11 @@ export default function Home() {
             <div className='w-20 h-16 relative'>
               <div className='w-10 h-10 bg-[#DA2327] p-2 text-white text-base font-semibold rounded-full text-center absolute top-0 left-2'> 4</div>
 
-               <div className=" bg-[url('/assets/icons/814055729e7a962da376c80600a697b4e8504a14.gif')] w-16 h-16 bg-cover -mt-8 ml-8 " />
+               <div className=" bg-[url('/assets/icons/814055729e7a962da376c80600a697b4e8504a14.gif')] w-16 h-16 bg-cover -mt-8 mx-4 " />
             </div>
 
-            <div className='pl-2 pr-2'>
-              <h2 className='text-2xl font-semibold'>Painting & Drywall Repair </h2>
+            <div className='px-2'>
+              <h2 className='text-2xl font-semibold lg:text-[29px]'>Painting & Drywall Repair </h2>
               <p className='text-base font-medium pt-3'>Interior and exterior painting, touch-ups, and repairs.</p>
             </div>
           </div>
@@ -152,11 +152,11 @@ export default function Home() {
             <div className='w-20 h-16 relative'>
               <div className='w-10 h-10 bg-[#DA2327] p-2 text-white text-base font-semibold rounded-full text-center absolute top-0 left-2'> 5</div>
 
-               <div className=" bg-[url('/assets/icons/7c5bff4828d1d1715da5fcf0e987c7102c906dfc.gif')] w-16 h-16 bg-cover -mt-8 ml-8 " />
+               <div className=" bg-[url('/assets/icons/7c5bff4828d1d1715da5fcf0e987c7102c906dfc.gif')] w-16 h-16 bg-cover -mt-8 mx-4 " />
             </div>
 
-            <div className='pl-2 pr-2'>
-              <h2 className='text-2xl font-semibold'>Electrical & Plumbing Repairs</h2>
+            <div className='px-2'>
+              <h2 className='text-2xl font-semibold lg:text-[29px]'>Electrical & Plumbing Repairs</h2>
               <p className='text-base font-medium pt-3'>Small electrical fixes and plumbing solutions.</p>
             </div>
           </div>
@@ -165,11 +165,11 @@ export default function Home() {
             <div className='w-20 h-16 relative'>
               <div className='w-10 h-10 bg-[#DA2327] p-2 text-white text-base font-semibold rounded-full text-center absolute top-0 left-2'> 6</div>
 
-               <div className=" bg-[url('/assets/icons/cd5f571e9f491aa8b91603dc2460239892d4b902.gif')] w-16 h-16 bg-cover -mt-8 ml-8 " />
+               <div className=" bg-[url('/assets/icons/cd5f571e9f491aa8b91603dc2460239892d4b902.gif')] w-16 h-16 bg-cover -mt-8 mx-4 " />
             </div>
 
-            <div className='pl-2 pr-2'>
-              <h2 className='text-2xl font-semibold'>Pressure Washing & Gutter Cleaning</h2>
+            <div className='px-2'>
+              <h2 className='text-2xl font-semibold lg:text-[29px]'>Pressure Washing & Gutter Cleaning</h2>
               <p className='text-base font-medium pt-3'>Maintain your home’s exterior with ease.</p>
             </div>
           </div>
@@ -178,11 +178,11 @@ export default function Home() {
             <div className='w-20 h-16 relative'>
               <div className='w-10 h-10 bg-[#DA2327] p-2 text-white text-base font-semibold rounded-full text-center absolute top-0 left-2'> 7</div>
 
-               <div className=" bg-[url('/assets/icons/ffb37f89a000a2bc692d78077d71d47af4c81c0d.gif')] w-16 h-16 bg-cover -mt-8 ml-8 " />
+               <div className=" bg-[url('/assets/icons/ffb37f89a000a2bc692d78077d71d47af4c81c0d.gif')] w-16 h-16 bg-cover -mt-8 mx-4 " />
             </div>
 
-            <div className='pl-2 pr-2'>
-              <h2 className='text-2xl font-semibold'>Carpentry & Custom Woodwork</h2>
+            <div className='px-2'>
+              <h2 className='text-2xl font-semibold lg:text-[29px]'>Carpentry & Custom Woodwork</h2>
               <p className='text-base font-medium pt-3'>Shelving, cabinets, trim work, and more.</p>
             </div>
           </div>
@@ -191,11 +191,11 @@ export default function Home() {
             <div className='w-20 h-16 relative'>
               <div className='w-10 h-10 bg-[#DA2327] p-2 text-white text-base font-semibold rounded-full text-center absolute top-0 left-2'> 8</div>
 
-               <div className=" bg-[url('/assets/icons/855020ee3cb028c1226592a8b5a753782adb048c.gif')] w-16 h-16 bg-cover -mt-8 ml-8 " />
+               <div className=" bg-[url('/assets/icons/855020ee3cb028c1226592a8b5a753782adb048c.gif')] w-16 h-16 bg-cover -mt-8 mx-4 " />
             </div>
 
-            <div className='pl-2 pr-2'>
-              <h2 className='text-2xl font-semibold'>Lawn Maintenance</h2>
+            <div className='px-2'>
+              <h2 className='text-2xl font-semibold lg:text-[29px]'>Lawn Maintenance</h2>
               <p className='text-base font-medium pt-3'>Spring and fall cleaning, trimming, planting, and junk hauling.</p>
             </div>
           </div>
@@ -204,22 +204,22 @@ export default function Home() {
 
 
       <div className="lg:px-10 ">
-        <div className="pt-18 pl-5 pr-2 items-center lg:w-[632px] lg:h-[731px]">
+        <div className="pt-18 items-center lg:w-[632px] lg:h-[731px] px-3 pl-6">
           <div className="bg-[url('/assets/images/Group1.png')]  bg-no-repeat bg-cover bg-center aspect-square"/>
         </div>
 
-      <div className="lg:w-[584px] lg:h-[776px] lg:mt-[-736px] lg:ml-[650px]">
-        <div className='flex w-fit flex-col items-start pt-18 pl-5 pr-5' id='About Us'>
-          <h2 className='text-[#DA2327] text-[20px] font-semibold'> About Us</h2>
+        <div className="lg:w-[584px] lg:h-[776px] lg:mt-[-736px] lg:mx-[620px] lg:px-2">
+          <div className='flex w-fit flex-col items-start pt-18 px-5' id='About Us'>
+            <h2 className='text-[#DA2327] text-[20px] font-semibold'> About Us</h2>
 
-          <h2 className='pt-5 text-black text-4xl font-bold self-stretch md:text-6xl lg:text-[50px]'>“...We strive to enhance the comfort, safety, and value of your home.”</h2>
+          <h2 className='pt-5 text-black text-4xl font-bold self-stretch md:text-6xl lg:text-[46px]'>“...We strive to enhance the comfort, safety, and value of your home.”</h2>
 
-          <p className="text-base pt-5 font-normal md:pt-10 lg:text-sm">
+          <p className="text-base pt-5 font-normal md:pt-10 lg:text-sm lg:w-[">
             At JMG HandyMan Services, we take pride in delivering reliable, efficient, and high-quality handyman services to homeowners and businesses alike. No project is too big or too small—we tackle everything from minor repairs to full-scale renovations with the same level of dedication and excellence
           </p>
         </div>
 
-        <div className='flex w-fit flex-col items-start pt-18 pl-5 pr-5 lg:mt-[-50px]'>
+        <div className='flex w-fit flex-col items-start pt-18 px-5 lg:mt-[-50px]'>
           <h2 className='text-[#DA2327] text-[20px] font-semibold lg:text-sm'> Our Mission</h2>
 
           <p className="text-base pt-5 font-normal lg:text-sm lg:pt-3">
@@ -227,7 +227,7 @@ export default function Home() {
           </p>
         </div>
 
-          <div className='flex w-fit flex-col items-start pt-18 pl-5 pr-5 lg:mt-[-50px]'>
+          <div className='flex w-fit flex-col items-start pt-18 px-5 lg:mt-[-50px]'>
             <h2 className='text-[#DA2327] text-[20px] font-semibold lg:text-sm'> Our Vision</h2>
 
             <p className="text-base pt-5 font-normal lg:text-sm lg:pt-3">
@@ -248,7 +248,7 @@ export default function Home() {
         <div className=" pt-20 md:pt-30 lg:px-20" id="FAQ">
           <h2 className="self-stretch font-semibold text-4xl md:text-6xl text-center">Frequently Asked Questions</h2>
 
-          <div className='pl-5 pr-5 pt-10'>
+          <div className='px-5 pt-10'>
             <AccordionMenu />
           </div>
         </div>
@@ -272,49 +272,49 @@ export default function Home() {
           </div>
         </div>
 
-        <div className='bg-black mt-18 w-full pb-10 lg:pb-10'>
-          <div className='p-5'>
+        <div className='bg-black mt-18 w-full pb-10 '>
+          <div className='p-5 lg:px-15'>
             <div className='md:grid md:grid-rows-3 md:pl-2 md:w-64 md:gap-6 md:mt-[-20px] lg:w-[416px]'>
                 <div className='flex justify-center items-center pt-20 md:justify-start'>
-                  <div className="bg-[url(/assets/logo/Bag2.jpg)] h-20 w-20 bg-cover bg-center" />
+                  <div className="bg-[url(/assets/logo/Bag2.jpg)] h-20 w-20 bg-cover bg-center lg:h-[64px] lg:w-[70px]" />
                 </div>
                 <h2 className='text-white text-center text-base font-normal pt-8 md:text-left md:pt-0'>At JMG HandyMan Services, we take pride in delivering reliable, efficient, and high-quality handyman services to homeowners and businesses alike. No project is too big or too small</h2>
 
-                <div className='flex gap-4 justify-center items-center pt-8 md:justify-start md:pt-0 md:-mt-32 lg:mt-[-255px]'>
+                <div className='flex gap-4 justify-center items-center pt-8 md:justify-start md:pt-0 md:-mt-32 lg:mt-[-200px]'>
                   <div className='bg-[url(/assets/icons/facebook-02.svg)] h-8 w-8 bg-cover bg-center'/>
                   <div className='bg-[url(/assets/icons/instagram.svg)] h-8 w-8 bg-cover bg-center'/>
                   <div className='bg-[url(/assets/icons/tiktok.svg)] h-8 w-8 bg-cover bg-center'/>
                 </div>
             </div>
 
-            <div className='grid grid-row-5 gap-4 text-center items-center text-[#fff] pt-15 md:pt-0 md:mt-[-480px]'>
-              <h2 className='self-stretch text-lg text-[#666] font-semibold pb-3'>QUICK LINKS</h2>
+            <div className='grid grid-row-5 gap-4 text-center items-center text-[#fff] pt-15 md:pt-0 md:mt-[-480px] lg:mt-[-400px] lg:text-left lg:ml-[650px]'>
+              <h2 className='self-stretch text-lg text-[#666] font-semibold pb-3 '>QUICK LINKS</h2>
               <h3><a href="#Why Choose Us">Why Choose Us</a></h3>
               <h3><a href="#Services">Services</a></h3>
               <h3><a href="#About Us">About Us</a></h3>
               <h3><a href="#Testimonials">Testimonials</a></h3>
             </div>
 
-            <div className='flex flex-col gap-4 text-center items-center text-[#fff] pt-15 md:ml-96 md:pt-0 md:mt-[-200px]'>
+            <div className='flex flex-col gap-4 text-center items-center text-[#fff] pt-15 md:ml-96 md:pt-0 md:mt-[-200px] lg:ml-[800px]'>
               <h2 className='self-stretch text-lg text-[#666] font-semibold'>Contact Us</h2>
-              <div className="flex flex-row gap-2">
+              <div className="flex flex-row gap-2 lg:ml-10">
                 <div className='bg-[url(/assets/icons/call-02.svg)] h-6 w-6 bg-cover bg-center'/>
                 <h3>319-471-0593</h3>
               </div>
 
-               <div className="flex flex-row gap-2">
+               <div className="flex flex-row gap-2 lg:-ml-5">
                 <div className='bg-[url(/assets/icons/mail-01.svg)] h-6 w-6 bg-cover bg-center'/>
                 <h3>Email</h3>
               </div>
 
-               <div className="flex flex-row gap-2">
+               <div className="flex flex-row gap-2 lg:ml-26">
                 <div className='bg-[url(/assets/icons/location-06.svg)] h-6 w-6 bg-cover bg-center'/>
                 <h3>463 Hwy 1 West #G43</h3>
               </div>
             </div>
           </div>
 
-          <div className='pl-5 pr-5 md:mt-60 lg:mt-[150px]'>
+          <div className='px-5 md:mt-60 lg:mt-[100px] lg:px-17'>
             <hr className="h-[1px] w-full"/>
           </div>
 
