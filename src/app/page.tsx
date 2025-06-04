@@ -230,7 +230,7 @@ export default function Home() {
 
          <AutoScrollCards/>
 
-        <div className="flex flex-col px-5 gap-12 items-center pt-18 md:px-6 md:gap-16 md:pt-40" id="FAQ lg:px-[188px]">
+        <div className="flex flex-col px-5 gap-12 items-center pt-18 md:px-6 md:gap-16 md:pt-40  lg:px-[188px]" id="FAQ">
           <h2 className="self-stretch font-semibold text-4xl md:text-[53px] text-center md:font-semibold">Frequently Asked Questions</h2>
 
             <AccordionMenu />
