@@ -97,7 +97,7 @@ const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement 
     </form>
 
     <div className="lg:px-10">
-      <button type="submit" className="flex py-4 px-6 justify-center items-center gap-2.5 self-stretch bg-[#DA2327] text-white text-base font-medium lg:w-[166px] lg:gap-2.5">
+      <button type="submit" className="flex py-4 px-6 justify-center items-center gap-2.5 self-stretch bg-[#DA2327] text-white text-base font-medium lg:w-[166px] lg:gap-2.5 w-full">
         Send Message
       </button>
       </div>
